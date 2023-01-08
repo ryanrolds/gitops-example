@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: docker.pedanticorderliness.com/gitops-example
   pullPolicy: IfNotPresent
-  tag: f80a83c
+  tag: 17cf24e
 
 imagePullSecrets:
   - name: regcred
